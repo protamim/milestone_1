@@ -1,0 +1,346 @@
+/* Google Font - Lato */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+/* Common sharable styles */
+body {
+  font-family: "Lato", sans-serif;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.large_container {
+  width: 100%;
+  padding: 0 10px;
+}
+.container {
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+}
+.primary_btn {
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 43px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+.primary_btn:hover {
+  background-color: #fff;
+  color: #e55473;
+  border: 2px solid #e55473;
+}
+.section_title {
+  color: #272727;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+.section_text {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 0 26%;
+}
+/* ====================================================================
+Banner Area
+======================================================================*/
+.banner_area {
+  background-color: #e554731a;
+}
+.banner_inner {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.banner_content h1 {
+  color: #272727;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+.banner_content p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 55px;
+}
+.banner_inner .banner_image {
+  max-width: 450px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+/* ====================================================================
+Featured Flower
+======================================================================*/
+.featured_area {
+  padding: 100px 0;
+  background-color: #fff;
+}
+.featured_flowers {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 30px;
+  margin-top: 70px;
+}
+.featured_flowers .featured_list {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 300px 300px 0px 0px;
+  width: 320px;
+  height: 330px;
+}
+/* Flowers bg color */
+.lips {
+  background: rgba(167, 33, 98, 0.15);
+}
+.paradise {
+  background-color: rgba(5, 151, 160, 0.15);
+}
+.forest {
+  background-color: rgba(71, 125, 17, 0.15);
+}
+/* End Flowers bg color */
+.featured_flowers .featured_list img {
+  max-width: 200px;
+  width: 100%;
+}
+.featured_flowers .featured_list:nth-child(2) {
+  align-items: center;
+}
+.flowers_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+.flowers_name .fname_wrapper {
+  width: 320px;
+  text-align: center;
+}
+.fname_wrapper h4 {
+  color: #272727;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
+
+/* ====================================================================
+Highlight Area
+======================================================================*/
+.highlight_area {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 50px 20px;
+  margin-bottom: 100px;
+}
+.highlight_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.highlight_wrapper .highlight_item img {
+  max-width: 86px;
+  width: 100%;
+  margin-bottom: 20px !important;
+}
+.highlight_wrapper .highlight_item p {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 35px;
+}
+.highlight_wrapper .highlight_item img,
+.highlight_wrapper .highlight_item p {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* ====================================================================
+Hot Deal Area
+======================================================================*/
+.deal_area {
+  padding: 80px 0;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+.deal_wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.deal_content,
+.deal_image {
+  flex-basis: 50%;
+}
+.deal_content .section_text {
+  padding: 0;
+}
+.deal_content .section_title span {
+  color: #e55473;
+}
+.deal_wrapper .deal_image {
+  max-width: 320px;
+  width: 100%;
+}
+.deal_content .primary_btn {
+  display: block;
+  width: 165px;
+  margin: auto;
+  margin-top: 30px;
+}
+/* ====================================================================
+Instagram Area
+======================================================================*/
+.insta_area {
+  padding: 100px 0;
+  background-color: #fff;
+}
+.insta_area .insta_photos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  margin-top: 35px;
+}
+.insta_photos img {
+  max-width: 270px;
+  width: 100%;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.insta_photos img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* ====================================================================
+Latest deal or Subcrive
+======================================================================*/
+.subs_area {
+  margin: 50px 0;
+}
+.subs_bg {
+  padding: 100px 0;
+  background-image: url(../assets/images/Rectangle\ 9.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.subs_area .section_title {
+  margin-bottom: 10px;
+}
+.subs_area .section_text {
+  margin-bottom: 20px;
+}
+.subs_area .subs_form {
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.subs_form #email_input {
+  flex-basis: 65%;
+}
+.subs_form .primary_btn {
+  flex-basis: 33%;
+}
+#email_input {
+  padding: 22px 14px;
+  outline: none;
+  border: none;
+  background-color: #fff;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 8px;
+}
+.subs_form .subs_btn {
+  background-color: #e55473;
+  padding: 18px 30px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+.subs_form .subs_btn:hover {
+  background-color: #fff;
+  border: 2px solid #e55473;
+  color: #e55473;
+}
+
+/* ====================================================================
+Footer
+======================================================================*/
+.footer_area {
+  background-color: #111010;
+  padding: 50px 0;
+  text-align: center;
+}
+.footer_container {
+  color: #fff;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.footer_container .footer_logo {
+  color: #e55473;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.footer_logo span {
+  color: #fff;
+}
+.footer_container .footer_text {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.footer_bottom {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer_bottom a {
+  color: #e55473;
+  text-decoration: none;
+  font-weight: 700;
+  transition: all .3s ease;
+}
+.footer_bottom a:hover {
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.4);
+}
